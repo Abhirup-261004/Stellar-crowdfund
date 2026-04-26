@@ -106,6 +106,15 @@ This is intentional so the contract can call `require_auth()` on the provided `A
 
 ## Quick Start
 
+## Deployed Testnet IDs
+
+These are the contract IDs currently used in this project setup:
+
+- Crowdfund contract: `CBMLFWMDARFYLFOHFTXUL2DYVPTOQK2TWEGEX2VXCAPH2RM4CNIL77I5`
+- Native XLM token contract: `CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC`
+
+If you redeploy the contract, update the frontend `.env` and this README with the new value.
+
 ### 1. Build the contract
 
 ```bash
@@ -158,8 +167,8 @@ Fill `.env` with:
 ```env
 VITE_SOROBAN_RPC_URL=https://soroban-testnet.stellar.org
 VITE_NETWORK_PASSPHRASE=Test SDF Network ; September 2015
-VITE_CONTRACT_ID=YOUR_DEPLOYED_CONTRACT_ID
-VITE_TOKEN_CONTRACT_ID=YOUR_TOKEN_CONTRACT_ID
+VITE_CONTRACT_ID=CBMLFWMDARFYLFOHFTXUL2DYVPTOQK2TWEGEX2VXCAPH2RM4CNIL77I5
+VITE_TOKEN_CONTRACT_ID=CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC
 ```
 
 ### 6. Run the frontend
